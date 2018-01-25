@@ -1,2 +1,4 @@
 # Grade-Calculator
-Using dynamic programming to determine the optimal grades given the current hours and classes
+Using dynamic programming to determine the optimal grades given the current hours and classes. 
+
+Given a grade function, the current number of hours a student can spend on studying and the number of classes the student is taking. This program calculates the the optimal grade a student can receive with the given number of hours and classes. This grade function takes in the number of hours a student spends on that class and the class number and returns the grade the student gets spending that many hours on that class. For example grade(n,k) where n is the course number and k is the number of hours they studied for in that course returns 5. This means that the student studied k hours for class n and got a grade of 5. The grade function is designed in such a way that a student cannot receive a lower grade for studying more hours.
